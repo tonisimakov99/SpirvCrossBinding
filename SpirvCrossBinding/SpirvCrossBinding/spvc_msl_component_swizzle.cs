@@ -1,0 +1,14 @@
+namespace SpirvCrossBinding
+{
+    public enum spvc_msl_component_swizzle : int
+    {
+        SPVC_MSL_COMPONENT_SWIZZLE_IDENTITY = 0,
+        SPVC_MSL_COMPONENT_SWIZZLE_ZERO = 1,
+        SPVC_MSL_COMPONENT_SWIZZLE_ONE = 2,
+        SPVC_MSL_COMPONENT_SWIZZLE_R = 3,
+        SPVC_MSL_COMPONENT_SWIZZLE_G = 4,
+        SPVC_MSL_COMPONENT_SWIZZLE_B = 5,
+        SPVC_MSL_COMPONENT_SWIZZLE_A = 6,
+        SPVC_MSL_COMPONENT_SWIZZLE_INT_MAX = 2147483647
+    }
+}

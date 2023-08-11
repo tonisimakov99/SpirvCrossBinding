@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SpirvCrossBinding.Generator": {
+      "commandName": "Project",
+      "commandLineArgs": "-o $(SolutionDir)SpirvCrossBinding -f $(ProjectDir)headers\\spirv_cross_c.h -i $(ProjectDir)\\headers -n SpirvCrossBinding"
+    }
+  }
+}
