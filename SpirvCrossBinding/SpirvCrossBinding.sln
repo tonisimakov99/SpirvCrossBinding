@@ -5,9 +5,13 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpirvCrossBinding", "SpirvCrossBinding\SpirvCrossBinding.csproj", "{B3430946-CCCE-4A47-9644-722E29B12E0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpirvCrossBinding.Generator", "SpirvCrossBinding.Generator\SpirvCrossBinding.Generator.csproj", "{E3FEBC35-4C6B-40B5-A078-CFBAFE1B8B79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpirvCrossBinding.Generator", "SpirvCrossBinding.Generator\SpirvCrossBinding.Generator.csproj", "{E3FEBC35-4C6B-40B5-A078-CFBAFE1B8B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpirvCrossBinding.Demo", "SpirvCrossBinding.Demo\SpirvCrossBinding.Demo.csproj", "{DED41A19-098C-4098-9255-AEAFFFEF4269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpirvCrossBinding.Demo", "SpirvCrossBinding.Demo\SpirvCrossBinding.Demo.csproj", "{DED41A19-098C-4098-9255-AEAFFFEF4269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpirvCrossBinding.Native", "SpirvCrossBinding.Native\SpirvCrossBinding.Native.csproj", "{A74FA6E6-62BA-46C1-96A1-0217EE043197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Some", "Some\Some.csproj", "{01C8DB38-63E6-4AE9-9F6B-FEFE89E7F9ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{DED41A19-098C-4098-9255-AEAFFFEF4269}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED41A19-098C-4098-9255-AEAFFFEF4269}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED41A19-098C-4098-9255-AEAFFFEF4269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74FA6E6-62BA-46C1-96A1-0217EE043197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74FA6E6-62BA-46C1-96A1-0217EE043197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74FA6E6-62BA-46C1-96A1-0217EE043197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74FA6E6-62BA-46C1-96A1-0217EE043197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C8DB38-63E6-4AE9-9F6B-FEFE89E7F9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C8DB38-63E6-4AE9-9F6B-FEFE89E7F9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C8DB38-63E6-4AE9-9F6B-FEFE89E7F9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C8DB38-63E6-4AE9-9F6B-FEFE89E7F9ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

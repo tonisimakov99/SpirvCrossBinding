@@ -9,11 +9,14 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageTags>Spirv;SPIRV-Cross;binding</PackageTags>
 		<PackageProjectUrl>https://github.com/tonisimakov99/SpirvCrossBinding</PackageProjectUrl>
-		<Version>1.0.16</Version>
+		<Version>1.0.11</Version>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<IncludeContentInPack>true</IncludeContentInPack>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="SpirvCrossBinding.Native" Version="1.0.11" />
+		<Content Include="build\net7.0\SpirvCrossBinding.Native.targets" PackagePath="build\net7.0\SpirvCrossBinding.Native.targets" />
+		<Content Include="buildTransitive\net7.0\SpirvCrossBinding.Native.targets" PackagePath="buildTransitive\net7.0\SpirvCrossBinding.Native.targets" />
+		<Content Include="runtimes\win-x64\spirv-cross-c-shared.dll" PackagePath="runtimes\win-x64\spirv-cross-c-shared.dll" />
 	</ItemGroup>
-
 </Project>
